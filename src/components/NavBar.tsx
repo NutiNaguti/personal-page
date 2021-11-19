@@ -1,6 +1,4 @@
-import React, {useEffect, useState} from 'react';
-import axios from 'axios';
-import Marquee from 'react-double-marquee'
+import React from 'react';
 
 // Material UI imports
 import {
@@ -18,7 +16,6 @@ import {
 } from "@mui/material";
 
 // React App imports
-import styles from '../styles/NavBar.module.css'
 
 // Icon imports
 import paw from '../public/img/favpng_nyan-cat-donuts-pusheen-pixel-art.png'
@@ -26,35 +23,12 @@ import github from '../public/img/Octocat.png'
 import vk from '../public/img/icons8-вконтакте-100.png'
 import hbr from '../public/img/habr.png'
 
-interface Joke {
-  joke: string;
-}
-
 const styleIcon = {
   width: '100%', height: 'auto'
 }
 
 export default function Navbar() {
   const theme = useTheme();
-  const [joke, setJoke] = useState('');
-  
-  useEffect(() => {
-      if(!joke)
-        getJoke();
-    }, [])
-
-  const getJoke = async() => {
-    await axios.get(
-      "https://geek-jokes.sameerkumar.website/api?format=json")
-    .then(function (response) {
-      setJoke(response.data.joke)
-    })
-    .catch(function (error) {
-      console.log(error);
-    })
-  }
-
-
 
   const [anchor, setAnchor] = React.useState(null)
   const open = Boolean(anchor)

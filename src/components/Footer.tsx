@@ -1,12 +1,10 @@
-import { AppBar, Container, Typography, Toolbar, Box, Grid } from "@mui/material";
-import * as React from 'react';
-import App from "../App";
+import { Typography } from "@mui/material";
 
 export default function Footer() {
   return (
     <footer
       style={{
-        textAlign: 'center',
+        textAlign: "center",
         position: "fixed",
         left: "0px",
         bottom: "0px",
@@ -14,7 +12,7 @@ export default function Footer() {
         width: "100%",
       }}
     >
-    <Typography>© 2021 NutiNaguti</Typography>
+      <Typography>© 2021 NutiNaguti</Typography>
     </footer>
   );
 }
