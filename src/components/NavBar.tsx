@@ -124,7 +124,7 @@ export default function Navbar() {
             ) : (
               <>
                 <IconButton
-                  href="https://nutinaguti.github.io/web-site/"
+                  href="https://personal-page-nutinaguti.vercel.app"
                   sx={{ marginLeft: "8vw", marginRight: "auto" }}
                 >
                   <Typography
