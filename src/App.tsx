@@ -5,8 +5,8 @@ import Footer from "./components/Footer";
 import styles from './styles/App.module.css';
 
 // Material UI imports
-import {createTheme, CssBaseline} from '@mui/material';
-import {ThemeProvider} from '@emotion/react';
+import { createTheme, CssBaseline } from '@mui/material';
+import { ThemeProvider } from '@emotion/react';
 
 const theme = createTheme({
   typography: {

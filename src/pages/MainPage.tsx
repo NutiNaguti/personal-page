@@ -20,11 +20,9 @@ export default function MainPage() {
             <Grid item>
               <Paper
                 sx={{
-                  padding: "20px",
                   boxShadow: "0px 0px 25px rgba(255, 255, 255)",
                   background: "#ffead1",
                   borderRadius: "1.5rem",
-                  minHeight: "auto",
                 }}
                 className={styles.transparentPaper}
               >
@@ -44,10 +42,10 @@ export default function MainPage() {
                   <Typography
                     align="center"
                     sx={{
-                      marginBottom: "20px",
                       color: "#0C0C0C",
                       fontFamily: "Yanone Kaffeesatz",
-                    }}
+                      marginBottom: '20px'
+                   }}
                   >
                     Lorem Ipsum - это текст-"рыба", часто используемый в печати
                     и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для

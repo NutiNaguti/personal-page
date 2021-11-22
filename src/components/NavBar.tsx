@@ -19,7 +19,7 @@ import {
 
 // Icon imports
 import paw from '../public/img/favpng_nyan-cat-donuts-pusheen-pixel-art.png'
-import github from '../public/img/Octocat.png'
+import github from '../public/img/Octocat-2.webp'
 import vk from '../public/img/icons8-вконтакте-100.png'
 import hbr from '../public/img/habr.png'
 
